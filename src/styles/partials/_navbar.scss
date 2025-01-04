@@ -1,0 +1,97 @@
+.navbar {
+  background-color: #2b2b2e52;
+  backdrop-filter: blur(6px);
+  display: flex;
+  padding: 1.8rem 2rem;
+  border-radius: 6px;
+  border: 1px solid #cccccc21;
+  flex-wrap: wrap;
+  margin: 1.4rem;
+  justify-content: space-between;
+  width: auto;
+  .navbar-header {
+    a {
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+  }
+  .mt-2 {
+    margin-top: 0.5rem; /* Assuming 2 units in a framework like Tailwind */
+  }
+
+  .text-xxs {
+      font-size: 0.7rem;
+  }
+
+  .text-white {
+      color: #fff;
+  }
+
+  .text-center {
+      text-align: center;
+  }
+
+  .py-1 {
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+  }
+
+  .px-4 {
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
+
+  .bg-purple-600 {
+      background-color: #6b46c1; /* Replace with your specific purple shade */
+  }
+
+  .rounded-full {
+      border-radius: 9999px;
+  }
+
+  .w-fit {
+      width: fit-content;
+  }
+
+  .border-1 {
+      border-width: 1px;
+  }
+
+  .border-purple-500 {
+      border-color: #805ad5; /* Replace with your specific purple shade */
+  }
+
+  .md\:m-auto {
+      margin: auto;
+  }
+
+  .font-mono {
+      font-family: "Courier New", monospace;
+  }
+
+  .md\:font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .text-gray-300 {
+      color: #e2e8f0;
+  }
+
+  ul {
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    li {
+      padding: 0.6rem;
+      a {
+        font-size: 0.9rem;
+        text-decoration: none;
+        transition: 0.3s all ease-in-out;
+        &:hover {
+          color: #e7e7e7;
+        }
+      }
+    }
+  }
+}

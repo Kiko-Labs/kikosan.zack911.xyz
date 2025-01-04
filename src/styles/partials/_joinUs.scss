@@ -1,0 +1,23 @@
+.joinUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 7rem 0;
+  background-color: #2b2b2e52; /* Add semi-transparent background similar to navbar */
+  backdrop-filter: blur(6px); /* Apply the same blur effect */
+  border-radius: 15px; /* Optional, to match navbar's rounded corners */
+  .joinUs-header {
+    h3 {
+      font-size: 1.9rem;
+      margin: 1rem;
+      font-weight: bold;
+      color: #eee;
+    }
+  }
+  .joinUs-para {
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+}
