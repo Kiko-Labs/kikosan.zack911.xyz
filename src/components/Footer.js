@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
           <div className="mt-2">
             <p className="text-xxs text-white text-center py-1 px-4 bg-purple-600 rounded-full w-fit border-1 border-purple-500 md:m-auto font-mono md:font-sans">
-              <i className="ri-heart-line"></i> ForgeScript is made by @akaneruwumi, and its contributers
+              <i className="ri-heart-line"></i> ForgeScript is made by the BotForge team
             </p>
           </div>
         </div>
