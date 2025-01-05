@@ -11,14 +11,18 @@ body {
   font-family: "Poppins", sans-serif;
   width: 97%;
   margin: auto !important;
-  background-color: rgb(31, 16, 69);
+  
+  /* Soft black background color */
+  background-color: #121212;
+  
   animation: bodyFadeIn 1.2s ease-in-out;
   -webkit-tap-highlight-color: #08080800;
-  background-image: radial-gradient(#444df7b3 0.5px, transparent 0.5px),
-    radial-gradient(#444df7c4 0.5px, rgb(8, 8, 8) 0.5px);
-  background-size: 20px 20px;
-  background-position: 0 0, 10px 10px;
-  color: #e4e4e4; /* Soft light color for text */
+
+  background-image: radial-gradient(circle, rgba(63, 2, 104, 0.849) 1px, transparent 1px);
+  background-size: 20px 20px; /* Adjust the grid size */
+  background-position: 0 0; /* Start the grid from the top-left */
+  color: #e4e4e4; /* Light text color to contrast against the dark background */
+
 }
 
 @keyframes bodyFadeIn {
@@ -27,6 +31,16 @@ body {
   }
   100% {
     opacity: 100%;
+  }
+}
+
+/* Animation for the dots fading in */
+@keyframes fadeInDots {
+  0% {
+    background-color: rgba(129, 32, 143, 0); /* Initially transparent */
+  }
+  100% {
+    background-color: rgba(129, 32, 143, 0.4); /* End with dark purple color */
   }
 }
 

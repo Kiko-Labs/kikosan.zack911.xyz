@@ -55,7 +55,7 @@ const Footer = () => {
               data-aos-delay="300"
               data-aos-duration="1200"
             >
-              <i className="ri-heart-line"></i> ForgeScript is made by the BotForge team
+              <i className="ri-heart-line"></i> Kiko San Is Made By The Kiko-Labs Team!
             </p>
           </div>
         </div>
@@ -63,7 +63,7 @@ const Footer = () => {
           <hr />
           <div>
             <p className="p-color" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1200">
-              Created with ❤️ by{" "}
+              Head Developer{" "}
               <Link
                 href="https://github.com/Zack-911"
                 className="h-color no-decoration"
