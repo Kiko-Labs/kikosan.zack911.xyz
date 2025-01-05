@@ -68,7 +68,7 @@ const About = () => {
             className="about-stats-card"
             data-aos="slide-right" // Slide-in from the right
           >
-            <h4 className="h-color">17k+</h4>
+            <h4 className="h-color">2</h4>
             <p className="p-color">Total Servers</p>
           </div>
           <div
@@ -76,7 +76,7 @@ const About = () => {
             data-aos="slide-up" // Slide-up animation
             data-aos-delay="200"
           >
-            <h4 className="h-color">94k+</h4>
+            <h4 className="h-color">60+</h4>
             <p className="p-color">Total Users</p>
           </div>
           <div
@@ -84,7 +84,7 @@ const About = () => {
             data-aos="slide-left" // Slide-in from the left
             data-aos-delay="400"
           >
-            <h4 className="h-color">375k+</h4>
+            <h4 className="h-color">20+</h4>
             <p className="p-color">Total Commands</p>
           </div>
         </section>
