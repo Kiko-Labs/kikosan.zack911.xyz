@@ -1,10 +1,24 @@
 import Link from "next/link";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS styles
 
 const Navbar = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration
+      once: true, // Run animation only once
+    });
+  }, []);
+
   return (
     <div>
       <navbar className="navbar">
-        <nav className="navbar-header">
+        <nav
+          className="navbar-header"
+          data-aos="fade-down" // Add animation to navbar header
+          data-aos-duration="1500"
+        >
           <ul>
             <li>
               <Link className="h-color" href="/">
@@ -13,7 +27,11 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <nav className="navbar-items">
+        <nav
+          className="navbar-items"
+          data-aos="fade-up" // Add animation to navbar items
+          data-aos-duration="1500"
+        >
           <ul>
             <li>
               <Link className="p-color" href="/">

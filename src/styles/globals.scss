@@ -14,10 +14,11 @@ body {
   background-color: rgb(31, 16, 69);
   animation: bodyFadeIn 1.2s ease-in-out;
   -webkit-tap-highlight-color: #08080800;
-  background-image: radial-gradient(#444df73f 0.5px, transparent 0.5px),
+  background-image: radial-gradient(#444df7b3 0.5px, transparent 0.5px),
     radial-gradient(#444df7c4 0.5px, rgb(8, 8, 8) 0.5px);
   background-size: 20px 20px;
   background-position: 0 0, 10px 10px;
+  color: #e4e4e4; /* Soft light color for text */
 }
 
 @keyframes bodyFadeIn {
@@ -38,12 +39,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #555; /* Darker thumb for the scrollbar */
   border-radius: 5px;
 }
 
 .p-color {
-  color: #bfbfbf;
+  color: #d1d1d1; /* Softer grey for general text */
 }
 
 .h-color {
@@ -56,19 +57,25 @@ body {
 
 .btn {
   font-family: inherit;
-  padding: 0.6em 1.3em;
+  padding: 0.8em 1.5em;
   cursor: pointer;
   font-weight: normal;
   text-decoration: none;
+  color: white;
   margin: 0.3rem;
   font-size: 18px;
-  background-color: #1111128b;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5px);
-  border-radius: 5px;
-  transition: 0.2s all ease-in-out;
+  background-color: #6b46c1;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+  backdrop-filter: blur(8px);
+  border-radius: 6px;
+  transition: 0.3s all ease-in-out;
 }
 
 .btn:hover {
-  background-color: #19191a8b;
+  background-color: #5a35b2;
+  transform: translateY(-2px); /* Subtle hover effect */
+}
+
+.btn:active {
+  transform: translateY(0); /* Button stays down when clicked */
 }
