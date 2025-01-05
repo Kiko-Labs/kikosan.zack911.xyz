@@ -11,18 +11,18 @@ body {
   font-family: "Poppins", sans-serif;
   width: 97%;
   margin: auto !important;
-  
+
   /* Soft black background color */
   background-color: #121212;
-  
+
   animation: bodyFadeIn 1.2s ease-in-out;
   -webkit-tap-highlight-color: #08080800;
 
   background-image: radial-gradient(circle, rgba(63, 2, 104, 0.849) 1px, transparent 1px);
   background-size: 20px 20px; /* Adjust the grid size */
   background-position: 0 0; /* Start the grid from the top-left */
+  background-attachment: fixed; /* This keeps the background fixed when scrolling */
   color: #e4e4e4; /* Light text color to contrast against the dark background */
-
 }
 
 @keyframes bodyFadeIn {
