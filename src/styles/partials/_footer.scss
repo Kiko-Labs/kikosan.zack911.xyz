@@ -10,6 +10,9 @@
   justify-content: space-between;
   flex-direction: row;
   width: auto;
+  background-color: #2e2b2d52; /* Add semi-transparent background */
+  backdrop-filter: blur(6px); /* Apply the blurry background effect */
+  border-radius: 15px; /* Optional, for rounded corners */
   .footer-header {
     a {
       font-size: 1.5rem;

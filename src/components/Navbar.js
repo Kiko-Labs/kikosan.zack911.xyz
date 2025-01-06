@@ -39,7 +39,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link className="p-color" href="/docs">
+              <Link className="p-color" href="https://kikosan.gitbook.io">
                 Documentation
               </Link>
             </li>
